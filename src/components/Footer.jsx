@@ -2,16 +2,16 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6 postion-">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <footer className="bg-gray-800 text-white py-10 ">
+      <div className="container mx-auto px-3 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <h1 className="text-2xl font-bold">Company Name</h1>
-          <p className="text-sm">© 2024 Company Name. All rights reserved.</p>
+          <h1 className="text-2xl font-bold">E-Grocerry</h1>
+          <p className="text-sm leading-10">© 2024 E-Grocerry. All rights reserved.</p>
         </div>
         <div className="flex justify-center md:justify-end space-x-4">
           <a href="/#" className="text-gray-400 hover:text-white">
             <svg
-              className="h-6 w-6"
+              className="h-6 w-6 mr-10"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -19,9 +19,9 @@ const Footer = () => {
               <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-3.36 8.39c.03.13.03.26.03.39 0 3.99-3.03 8.6-8.6 8.6-1.71 0-3.3-.5-4.63-1.34.24.03.5.05.76.05 1.42 0 2.72-.48 3.76-1.28-1.32-.03-2.42-.89-2.8-2.08.18.03.34.05.53.05.24 0 .47-.03.69-.08-1.39-.28-2.42-1.5-2.42-2.95v-.05c.39.21.82.34 1.29.36-.76-.5-1.26-1.34-1.26-2.29 0-.5.13-.97.37-1.38 1.33 1.64 3.31 2.71 5.55 2.82-.05-.21-.08-.45-.08-.68 0-1.67 1.36-3.03 3.03-3.03.87 0 1.66.37 2.21.97.68-.13 1.32-.37 1.89-.71-.21.68-.68 1.26-1.28 1.62.61-.08 1.18-.24 1.72-.48-.39.61-.89 1.15-1.45 1.58z" />
             </svg>
           </a>
-          <a href="/#" className="text-gray-400 hover:text-white">
+          <a href="/#" className="text-gray-400 hover:text-red-900">
             <svg
-              className="h-6 w-6"
+              className="h-6 w-6 mr-10"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
           <a href="/#" className="text-gray-400 hover:text-white">
             <svg
-              className="h-6 w-6"
+              className="h-6 w-6 mr-10"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
